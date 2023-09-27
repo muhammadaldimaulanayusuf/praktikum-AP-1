@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int tugas = 90;
+  int uts = 80;
+  int uas = 100;
+  int total = tugas+uts+uas;
+  int rata2 = 3;
+  cout << "tugas = 90 " << endl;
+  cout << "uts = 80 " << endl;
+  cout << " uas = 100 " << endl;
+  cout << " total = " << total / rata2 << endl;
+}
